@@ -84,3 +84,68 @@ header{
     text-decoration: none;
     color: black;
 }
+
+.content{
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color: #f2f1f1;
+}
+aside{
+    height: 100%;
+    width: 280px;
+    background-color: white;
+    overflow-y: auto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding-right: 15px;
+
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+.nav-link span{
+    margin-left: 24px;
+    font-size: 1.4rem;
+    line-height: 2em;
+    font-weight: 400;
+    color : #030303;
+
+}
+.active{
+    background-color: #e5e5e5;
+}
+
+#active-span{
+    font-weight: 500;
+}
+hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+    margin: 10px 0;
+}
+
+nav p{
+    font-size: 1.4rem;
+    color: #606060;
+    font-weight: 500;
+    padding: 8px 16px;
+    
+}
+.channel-img{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
